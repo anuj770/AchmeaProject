@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FBFE9E05-D6A2-464C-81B4-6DEE4C06DEB8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A19EF4DD-77EA-4144-9907-0B4CAC6CC11E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AchmeaDemoTests/EmployerVMTestCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "test_getEmployer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A19EF4DD-77EA-4144-9907-0B4CAC6CC11E - 670c7ce76ef7d16f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AchmeaDemoTests.EmployerVMTestCase.test_getEmployer() -&gt; ()"
+                  moduleName = "AchmeaDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a../Desktop/AchmeaDemo/AchmeaDemoTests/EmployerVMTestCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "A19EF4DD-77EA-4144-9907-0B4CAC6CC11E - 670c7ce76ef7d14c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AchmeaDemoTests.EmployerVMTestCase.test_getEmployer() -&gt; ()"
+                  moduleName = "AchmeaDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a../Desktop/AchmeaDemo/AchmeaDemoTests/EmployerVMTestCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

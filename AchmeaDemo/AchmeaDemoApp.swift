@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct AchmeaDemoApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+          ContentView(viewModel: .init(apiService: APIService(), employerRepository: CDEmployerRepository()))
         }
     }
 }

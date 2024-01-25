@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F60E03C2B62B76800C1608D /* EmployerVMTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60E03B2B62B76800C1608D /* EmployerVMTestCase.swift */; };
+		9F60E03E2B62BC0300C1608D /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60E03D2B62BC0300C1608D /* Mock.swift */; };
+		9F60E0402B62F25000C1608D /* EmployerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F60E03F2B62F25000C1608D /* EmployerRowView.swift */; };
 		9FE83F462B56946800CD1DF2 /* AchmeaDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F452B56946800CD1DF2 /* AchmeaDemoApp.swift */; };
 		9FE83F482B56946800CD1DF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F472B56946800CD1DF2 /* ContentView.swift */; };
 		9FE83F4A2B56946900CD1DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE83F492B56946900CD1DF2 /* Assets.xcassets */; };
@@ -16,6 +19,10 @@
 		9FE83F5C2B56946A00CD1DF2 /* AchmeaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F5B2B56946A00CD1DF2 /* AchmeaDemoTests.swift */; };
 		9FE83F662B56946A00CD1DF2 /* AchmeaDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F652B56946A00CD1DF2 /* AchmeaDemoUITests.swift */; };
 		9FE83F682B56946A00CD1DF2 /* AchmeaDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F672B56946A00CD1DF2 /* AchmeaDemoUITestsLaunchTests.swift */; };
+		9FE83F762B5694B400CD1DF2 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F752B5694B400CD1DF2 /* Employer.swift */; };
+		9FE83F7A2B56BFB500CD1DF2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F792B56BFB500CD1DF2 /* APIService.swift */; };
+		9FE83F812B56CCEB00CD1DF2 /* EmployerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F802B56CCEB00CD1DF2 /* EmployerVM.swift */; };
+		9FE83F832B57331000CD1DF2 /* DataBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83F822B57331000CD1DF2 /* DataBaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F60E03B2B62B76800C1608D /* EmployerVMTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerVMTestCase.swift; sourceTree = "<group>"; };
+		9F60E03D2B62BC0300C1608D /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		9F60E03F2B62F25000C1608D /* EmployerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerRowView.swift; sourceTree = "<group>"; };
 		9FE83F422B56946800CD1DF2 /* AchmeaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AchmeaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE83F452B56946800CD1DF2 /* AchmeaDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchmeaDemoApp.swift; sourceTree = "<group>"; };
 		9FE83F472B56946800CD1DF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,10 @@
 		9FE83F612B56946A00CD1DF2 /* AchmeaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AchmeaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE83F652B56946A00CD1DF2 /* AchmeaDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchmeaDemoUITests.swift; sourceTree = "<group>"; };
 		9FE83F672B56946A00CD1DF2 /* AchmeaDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchmeaDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FE83F752B5694B400CD1DF2 /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		9FE83F792B56BFB500CD1DF2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9FE83F802B56CCEB00CD1DF2 /* EmployerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerVM.swift; sourceTree = "<group>"; };
+		9FE83F822B57331000CD1DF2 /* DataBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				9FE83F452B56946800CD1DF2 /* AchmeaDemoApp.swift */,
-				9FE83F472B56946800CD1DF2 /* ContentView.swift */,
+				9FE83F7F2B56CCD600CD1DF2 /* ViewModel */,
+				9FE83F782B56BF9D00CD1DF2 /* Services */,
+				9FE83F742B56949300CD1DF2 /* Model */,
+				9FE83F772B569A8D00CD1DF2 /* View */,
 				9FE83F492B56946900CD1DF2 /* Assets.xcassets */,
 				9FE83F4E2B56946900CD1DF2 /* Persistence.swift */,
 				9FE83F502B56946900CD1DF2 /* AchmeaDemo.xcdatamodeld */,
@@ -120,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				9FE83F5B2B56946A00CD1DF2 /* AchmeaDemoTests.swift */,
+				9F60E03B2B62B76800C1608D /* EmployerVMTestCase.swift */,
+				9F60E03D2B62BC0300C1608D /* Mock.swift */,
 			);
 			path = AchmeaDemoTests;
 			sourceTree = "<group>";
@@ -131,6 +150,40 @@
 				9FE83F672B56946A00CD1DF2 /* AchmeaDemoUITestsLaunchTests.swift */,
 			);
 			path = AchmeaDemoUITests;
+			sourceTree = "<group>";
+		};
+		9FE83F742B56949300CD1DF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FE83F752B5694B400CD1DF2 /* Employer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FE83F772B569A8D00CD1DF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FE83F472B56946800CD1DF2 /* ContentView.swift */,
+				9F60E03F2B62F25000C1608D /* EmployerRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FE83F782B56BF9D00CD1DF2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9FE83F792B56BFB500CD1DF2 /* APIService.swift */,
+				9FE83F822B57331000CD1DF2 /* DataBaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9FE83F7F2B56CCD600CD1DF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FE83F802B56CCEB00CD1DF2 /* EmployerVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F60E0402B62F25000C1608D /* EmployerRowView.swift in Sources */,
 				9FE83F4F2B56946900CD1DF2 /* Persistence.swift in Sources */,
 				9FE83F482B56946800CD1DF2 /* ContentView.swift in Sources */,
+				9FE83F7A2B56BFB500CD1DF2 /* APIService.swift in Sources */,
 				9FE83F462B56946800CD1DF2 /* AchmeaDemoApp.swift in Sources */,
+				9FE83F762B5694B400CD1DF2 /* Employer.swift in Sources */,
+				9FE83F812B56CCEB00CD1DF2 /* EmployerVM.swift in Sources */,
+				9FE83F832B57331000CD1DF2 /* DataBaseService.swift in Sources */,
 				9FE83F522B56946900CD1DF2 /* AchmeaDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE83F5C2B56946A00CD1DF2 /* AchmeaDemoTests.swift in Sources */,
+				9F60E03C2B62B76800C1608D /* EmployerVMTestCase.swift in Sources */,
+				9F60E03E2B62BC0300C1608D /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
